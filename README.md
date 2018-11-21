@@ -1,7 +1,7 @@
 # Front-End-Web-Developer-Nanodegree
 
 ## The Building Blocks of Front-End
-
+---
 ### HTML Syntax
 
 - The `<head></head>` tag contains metadata such as title, script/css links
@@ -33,4 +33,6 @@
     - Standard
       - Behaves according to HTML/CSS specifications
   - You can find out what mode is used by going into dev tools then document mode
+
+---
 
