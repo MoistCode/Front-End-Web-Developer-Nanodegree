@@ -4,6 +4,8 @@
 
 ### HTML Syntax
 
+- The `<head></head>` tag contains metadata such as title, script/css links
+- https://validator.w3.org/#validate_by_input can help validate HTML
 - HTML Document usually starts with a type declaration
   - Helps browser determine type of HTML document is trying to parse and display (rendering mode)
   - Example below triggers standard mode but specifies an older form of validation
