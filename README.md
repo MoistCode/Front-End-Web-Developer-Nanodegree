@@ -39,3 +39,10 @@
 
 ### CSS Syntax
 - Cascading Style Sheets
+- Ruleset composes of a selector and a declaration block
+- Attributes helps describe content
+- CSS Units
+  - Absolute
+    - Fixed units of measurement
+  - Relative
+    - Comparison to another element
