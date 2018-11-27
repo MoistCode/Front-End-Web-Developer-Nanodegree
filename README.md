@@ -35,9 +35,8 @@
   - You can find out what mode is used by going into dev tools then document mode
 
 ---
-
-
 ### CSS Syntax
+
 - Cascading Style Sheets
 - Ruleset composes of a selector and a declaration block
 - Attributes helps describe content
@@ -48,3 +47,6 @@
   - Relative
     - Comparison to another element
     - %, em, vw, vh
+
+---
+### CSS Syntax
