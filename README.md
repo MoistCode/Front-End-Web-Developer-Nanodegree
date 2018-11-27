@@ -44,5 +44,7 @@
 - CSS Units
   - Absolute
     - Fixed units of measurement
+    - px, mm, in, cm
   - Relative
     - Comparison to another element
+    - %, em, vw, vh
