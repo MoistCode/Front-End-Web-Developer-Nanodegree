@@ -47,6 +47,8 @@
   - Relative
     - Comparison to another element
     - %, em, vw, vh
-
+- Browsers select font-family from left to right
+  
+  
 ---
-### CSS Syntax
+### 
