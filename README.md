@@ -51,4 +51,12 @@
   
   
 ---
-### 
+### Responsive Design
+
+- Remote debugging
+  - Android
+    - Turn on dev mode on device
+      - About > Build Number x 7 > USB Debugging (on)
+    - Chrome Canary (desktop)
+    - Chrome
+  - iOS
