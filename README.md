@@ -61,3 +61,4 @@
       - Chrome://inspect
     - Chrome Beta
   - iOS
+    - https://github.com/google/ios-webkit-debug-proxy
