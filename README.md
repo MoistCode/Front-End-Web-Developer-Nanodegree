@@ -57,6 +57,6 @@
   - Android
     - Turn on dev mode on device
       - About > Build Number x 7 > USB Debugging (on)
-    - Chrome Canary (desktop)
-    - Chrome
+    - Chrome Canary (laptop)
+    - Chrome Beta
   - iOS
