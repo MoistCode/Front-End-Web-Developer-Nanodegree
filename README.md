@@ -58,5 +58,6 @@
     - Turn on dev mode on device
       - About > Build Number x 7 > USB Debugging (on)
     - Chrome Canary (laptop)
+      - Chrome://inspect
     - Chrome Beta
   - iOS
