@@ -62,3 +62,15 @@
     - Chrome Beta
   - iOS
     - https://github.com/google/ios-webkit-debug-proxy
+- Not all devices have the same pixel density
+  - Not all pixels are created equal
+  - Browser reports width in browser independent pixel
+    - Unit of measure of a pixel to a real distance
+    - The same regardless of the pixel density of the display
+    - 1280 DIPs => 2560 hardware pixels
+  - No meta viewport?
+    - No viewport set means the browser assume it's not suppose to work on a small screen
+    - Renders as if the screen is 980 DIPs wide
+      - Really small
+    - Browser then uses font-boosting and makes it even uglier by increasing certain fonts and leaving others really small
+  
