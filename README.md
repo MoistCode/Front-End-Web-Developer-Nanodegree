@@ -74,3 +74,7 @@
       - Really small
     - Browser then uses font-boosting and makes it even uglier by increasing certain fonts and leaving others really small
   - Tech spec pixels are hardware pixels
+  - Device pixel ratio
+    - Horizontal
+  - Calculate CSS pixels from hardware pixels
+    - 1 CSS px for every DPR
