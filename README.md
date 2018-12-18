@@ -77,4 +77,13 @@
   - Device pixel ratio
     - Horizontal
   - Calculate CSS pixels from hardware pixels
-    - 1 CSS px for every DPR
+    - Hardware pixel / DPR
+- Setting the viewport
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+  - This tells the browser we know what we are doing
+  - Allows page to reflow content to match screen sizes
+  - Establish a 1-to-1 relationship between DIP and CSS pixels
+  - If this is not in the head, content stays the same when switching from landscape to portrait
+- 
