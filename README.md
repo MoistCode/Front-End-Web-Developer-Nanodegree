@@ -86,4 +86,8 @@
   - Allows page to reflow content to match screen sizes
   - Establish a 1-to-1 relationship between DIP and CSS pixels
   - If this is not in the head, content stays the same when switching from landscape to portrait
-- 
+- max-width: 100% prevents overflowing
+- Tap targets
+  - Anything a user might interact with
+  - Needs to be big enough for users to hit on mobile
+  - Small enough not to hit two
