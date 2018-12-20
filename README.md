@@ -95,3 +95,5 @@
     - Make at least 48 x 48 px to be safe
     - min-width/height: 48px
     - Using width or height alone won't allow the element to resize if the content inside is bigger than the container
+  - Mobile first design
+    - Prioritize content
