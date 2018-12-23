@@ -98,3 +98,5 @@
   - Mobile first design
     - Prioritize content
     - Performance
+  - Flexbox practice
+    - https://s3-us-west-2.amazonaws.com/gae-supplemental-media/pattern-mostly-fluid-quiz-blankcsshtml/pattern-mostly-fluid-quiz-blankcss.html
