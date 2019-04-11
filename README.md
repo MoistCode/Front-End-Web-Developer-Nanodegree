@@ -120,3 +120,10 @@
     - max/min-device-width is highly discouraged
   - Breakpoints 
     - Point at which the layout changes
+    - Set breakpoints based off content
+  - Complex media queries
+  ```css
+    @media screen and (min-width: 500px) and (max-width: 600px) {
+      ...
+    }
+  ```
