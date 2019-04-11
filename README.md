@@ -145,3 +145,5 @@
     - Flexbox really shines due to ordering
     - Requires more planning
   - Off canvas
+    - Places less used content on the side
+    - Nav in mobile that comes in from the side when hamburger is clicked
