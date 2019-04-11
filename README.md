@@ -81,7 +81,7 @@
     - Hardware pixel / DPR
 - Setting the viewport
 ```html
-<meta name="viewport" ~~content~~="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 ```
   - This tells the browser we know what we are doing
   - Allows page to reflow content to match screen sizes
