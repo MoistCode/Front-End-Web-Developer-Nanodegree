@@ -176,4 +176,7 @@
 - https://github.com/udacity/ud777-writing-readmes
 - Both for yourself and others
 - Anatomy
-  - 
+  - Title
+  - Description
+  - Installation
+  - Usage
