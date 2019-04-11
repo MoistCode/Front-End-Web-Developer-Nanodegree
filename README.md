@@ -149,3 +149,20 @@
     - Nav in mobile that comes in from the side when hamburger is clicked
 ---
 ### Optimizations
+- Responsive tables
+  - Hidden columns 
+    - Hides columns based on importance
+    - Biggest issue is hiding content
+  - No more tables
+    - Table is collapse
+    - Turns into a list
+    - All data is visible
+    - Every column becomes a row
+    - content: attr(data-th)
+  - Contained tables
+    - Wrap it in a div
+      - overflow-x: auto
+      - width: 100%
+    - Horizontal scroll
+- Fonts
+  - Words per line matters
