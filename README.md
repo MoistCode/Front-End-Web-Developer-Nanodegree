@@ -136,5 +136,12 @@
     - As viewport gets wider; content goes up one by one
     - Margins are added to left and right at max width
   - Mostly fluid 
+    - Similar to column drop but more gridlike
+    - Narrow; stacks
+    - As viewport gets wider; grid starts showing
   - Layout shifting
+    - Most responsive
+    - Way that content moves 
+    - Flexbox really shines due to ordering
+    - Requires more planning
   - Off canvas
