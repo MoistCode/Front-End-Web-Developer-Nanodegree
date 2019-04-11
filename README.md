@@ -110,7 +110,7 @@
     @media screen and (min-width: 500px) {
       ...
     }
-    @import url("no.css") only screen and (min-wdith: 500px)
+    @import url("no.css") only screen and (min-width: 500px);
   ```
   - DO NOT USE `@import`
   - Linked CSS vs @media
@@ -118,3 +118,5 @@
     - @media; less request; bigger files
   - Most popular is max/min width
     - max/min-device-width is highly discouraged
+  - Breakpoints 
+    - Point at which the layout changes
