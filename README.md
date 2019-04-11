@@ -116,3 +116,5 @@
   - Linked CSS vs @media
     - Linked CSS; lots of requests; smaller files 
     - @media; less request; bigger files
+  - Most popular is max/min width
+    - max/min-device-width is highly discouraged
