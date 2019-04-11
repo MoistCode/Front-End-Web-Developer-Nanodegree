@@ -171,3 +171,9 @@
   - Big enough to read
   - Line height is important
   - Base shoud be around at minimum 16px
+---
+### Documentation
+- https://github.com/udacity/ud777-writing-readmes
+- Both for yourself and others
+- Anatomy
+  - 
