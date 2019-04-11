@@ -76,11 +76,12 @@
   - Tech spec pixels are hardware pixels
   - Device pixel ratio
     - Horizontal
+  - Font boosting
   - Calculate CSS pixels from hardware pixels
     - Hardware pixel / DPR
 - Setting the viewport
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" ~~content~~="width=device-width, initial-scale=1">
 ```
   - This tells the browser we know what we are doing
   - Allows page to reflow content to match screen sizes
@@ -89,7 +90,7 @@
 - max-width: 100% prevents overflowing
 - Tap targets
   - Anything a user might interact with
-  - Needs to be big enough for users to hit on mobile
+  - ~~Needs to be big enough for users to hit on mobile~~
   - Small enough not to hit two
   - Fingers are about 40 css pixels length
     - Make at least 48 x 48 px to be safe
