@@ -106,3 +106,13 @@
   ```html
     <link rel="stylesheet" media="screen and (min-width: 500px)" href="over500.css">
   ```
+  ```css
+    @media screen and (min-width: 500px) {
+      ...
+    }
+    @import url("no.css") only screen and (min-wdith: 500px)
+  ```
+  - DO NOT USE `@import`
+  - Linked CSS vs @media
+    - Linked CSS; lots of requests; smaller files 
+    - @media; less request; bigger files
