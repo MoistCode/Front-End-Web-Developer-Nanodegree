@@ -166,3 +166,8 @@
     - Horizontal scroll
 - Fonts
   - Words per line matters
+  - Can't be too long or too short
+  - Ideal measure is anywhere from 45 to 90 cpl ( ~65 cpl)
+  - Big enough to read
+  - Line height is important
+  - Base shoud be around at minimum 16px
