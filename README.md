@@ -131,10 +131,10 @@
 ---
 ### Resposive Patterns
 - Categories
-  - Mostly fluid 
   - Column drop
     - Narrow; stack
     - As viewport gets wider; content goes up one by one
     - Margins are added to left and right at max width
+  - Mostly fluid 
   - Layout shifting
   - Off canvas
