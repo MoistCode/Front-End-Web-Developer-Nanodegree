@@ -180,3 +180,10 @@
   - Description
   - Installation
   - Usage
+- What steps?
+- What should users have installed/configured?
+- What might they have a hard time understanding right away?
+- Markdown is a good language
+  - Translates to HTML
+  - Makes it easy to skim through
+  - https://help.github.com/en/articles/basic-writing-and-formatting-syntax
