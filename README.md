@@ -190,3 +190,7 @@
   - https://dillinger.io/
 ---
 ### JavaScript
+- Hoisting
+  - Before execution
+  - Variables are raised to the top of the function scope
+  - Runtime is when variables are assigned and when functions are ran
