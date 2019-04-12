@@ -222,3 +222,11 @@
       return total;
     }
   ```
+---
+### DOM
+- DOM Creation
+  - HTML received
+  - HTML tags converted to tokens
+  - Tokens converted to nodes
+  - Nodes converted to DOM
+  - HTML -> Token -> Node -> DOM
