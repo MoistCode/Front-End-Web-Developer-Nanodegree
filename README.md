@@ -236,3 +236,42 @@
     - end of file
   - Nodes converted to DOM
   - HTML -> Token -> Node -> DOM(tree structures; relationships between nodes)
+  - Node vs node
+    - Node = blueprint
+    - node = object
+  - Node vs Element interface
+- innerText vs textContent
+  - textContent
+    - set text content of an element and all its descendants
+    - return text content of an element and all its decendants
+    - will display html text as text unlike innerHTML
+  - innerTEXT
+    - As it would be seen with CSS
+- Event phases
+  - Capture
+    - HTML down to element
+  - At target
+    - At element
+  - Bubbling
+    - Element back up to top of HTML
+---
+### Performance
+- monitorEvents(document)
+- performance.now()
+- Why use `div` holder?
+  - Browser has to run through reflow calc to determine the new screen layout
+  - Then repaint the screen
+  - Adding to document will cause a constant reflow and repaint process
+  - `DocumentFragment`
+- Reflow
+  - Process of browser laying out the page
+  - Happens when you first display the DOM
+    - Generally after the DOM and CSS has been loaded 
+    - Happens again every time something changes the layout
+    - Very expensive process
+- Repaint
+  - Happens after reflow as the browser draws the new layout to the screen 
+  - Quicker but still should be limited
+- Adding a little CSS change can cause a reflow
+- Use position fixed or absolute when making complex rendering changes such as animations
+- 
