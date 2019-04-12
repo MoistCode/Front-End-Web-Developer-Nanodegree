@@ -206,4 +206,19 @@
   - const {a,b} = {a: 'based off', b: 'keys'};
 - Shorthand method names
   - const gemstone = { calc() {} }
-  - 
+- Iteration
+  - i for iterator
+  - for..of for objects
+  - for..in can be in big trouble due to extra method in array prototype
+    - Loops over all enumerable properties
+    - Discouraged for arrays
+- Rest and Spread
+  ```js
+    function syum(...nums) {
+      let total = 0;
+      for(const num of nums) {
+        total += num;
+      }
+      return total;
+    }
+  ```
