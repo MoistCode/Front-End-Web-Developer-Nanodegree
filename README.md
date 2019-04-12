@@ -194,3 +194,8 @@
   - Before execution
   - Variables are raised to the top of the function scope
   - Runtime is when variables are assigned and when functions are ran
+  - `let` and `const` are block-scoped, not function-scoped like `var`
+- Always declare using `const` unless variable will change
+- No real reason to use `var` anymore
+- Template literals don't require newline since they perserve newlines
+  - Can be multiline
