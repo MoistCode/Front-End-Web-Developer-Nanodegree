@@ -199,3 +199,11 @@
 - No real reason to use `var` anymore
 - Template literals don't require newline since they perserve newlines
   - Can be multiline
+- Array destructuring
+  - const [a,b] = ['based off', 'index];
+  - const [a, , b] = ['based off', 'ignored', 'index];
+- Object destructuring
+  - const {a,b} = {a: 'based off', b: 'keys'};
+- Shorthand method names
+  - const gemstone = { calc() {} }
+  - 
