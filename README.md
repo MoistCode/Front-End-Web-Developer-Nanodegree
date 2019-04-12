@@ -228,5 +228,11 @@
   - HTML received
   - HTML tags converted to tokens
   - Tokens converted to nodes
+    - DOCTYPE
+    - start tag
+    - end tag
+    - comment
+    - character
+    - end of file
   - Nodes converted to DOM
-  - HTML -> Token -> Node -> DOM
+  - HTML -> Token -> Node -> DOM(tree structures; relationships between nodes)
