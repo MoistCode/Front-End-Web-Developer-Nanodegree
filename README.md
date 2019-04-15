@@ -276,3 +276,7 @@
 - Use position fixed or absolute when making complex rendering changes such as animations
 - Use less descendent selectors and complex CSS
 - Less depth in HTML hierarchy; less is more
+---
+### Web Accessibility
+- Shorten it to `a11y`
+- Perceivable, operable, understadable, robusts
