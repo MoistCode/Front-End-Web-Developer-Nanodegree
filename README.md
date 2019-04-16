@@ -317,9 +317,21 @@
   - Accessibility tree sort of looks like a web page from the 90s
     - Only information necessary to understand content
   - Visible label
+    - Form buttons has descriptive values
   - Text alternative
     - Not visible
       - image alt
-    - Form buttons has descriptive values
     - Input elements should have a name
       - We can wrap checkboxes in a label or use a label `for` attr
+    - Use learn more about ... vs learn more
+- ARIA
+  - Web Accessibility Initiative Accessible rich internet application
+    - WAI-ARIA
+    - When native HTML won't be enough
+      - Ex. Checkbox
+        - Using a DIV won't indicate that it is a checkbox or its state
+        - `role="checkbox" aria-checked="true/false"`
+  - Only modify the accessibility tree
+    - Does not:
+      - Modify appearance or behavior
+      - Add focusability or event handling
