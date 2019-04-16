@@ -279,4 +279,47 @@
 ---
 ### Web Accessibility
 - Shorten it to `a11y`
-- Perceivable, operable, understadable, robusts
+- Perceivable, operable, understadable, robusts (POUR)
+- Focus refers to moving to each functionality such as clicking on an input field
+- Logical tab order
+- Implicitly focusable
+  - Button, input
+- It is possible to use CSS to visually change the order but the DOM element is still ordered in a certain way
+  - Tab will still go by the tab order, not the visual order
+  - Ensure meaningful sequence
+- Tabindex
+  - -1 indicates it's not in the natural tab order
+  - Can be focusable with `focus()` JS 
+  - 0 is in the natural tab order
+  - Tabindex greater than 0 is an anti-pattern
+  - Usually put on something a user may interact with
+  - Some exceptions
+    - Click that changes content
+    - Click that zenscrolls down
+    - Manage focus
+- Skip links
+  - Help users to move straight to the main content
+  - use `:focus` selector to bring it into view
+- Check ARIA Authoring Best Practice Docs
+- Roving focus
+  - Custom widget
+  - i.e., make a custom radio group accessible
+- Navigation pop up menu
+  - Tab order can hide tab in a hidden menu
+  - `document.activeElement` will you a reference to the current active element
+  - Using `display: none` or `visibility: hidden` helps with this
+- Chrome accessibility dev tools
+- Keyboard traps
+  - Useful for modal windows but not for anything else
+- Semantics
+  - Affordances
+    - Patterns
+  - Accessibility tree sort of looks like a web page from the 90s
+    - Only information necessary to understand content
+  - Visible label
+  - Text alternative
+    - Not visible
+      - image alt
+    - Form buttons has descriptive values
+    - Input elements should have a name
+      - We can wrap checkboxes in a label or use a label `for` attr
