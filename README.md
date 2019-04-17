@@ -335,3 +335,17 @@
     - Does not:
       - Modify appearance or behavior
       - Add focusability or event handling
+
+---
+### JavaScript
+- Symbols
+  - New datatype
+  - Unique identify 
+  - Mainly used to identify properties within an object
+    - Banana1 .... BananaN
+  ```js
+    const sym1 = Symbol("apple");
+    const sym2 = Symbol("apple");
+    console.log(sym1 === sym2); // false
+    
+  ```
