@@ -361,6 +361,7 @@
     }
   ```
 - Iteraor 
+  - You can do this for Sets
   ```js
     const digits = [1,2,3,4,5,6];
     const arrayIterator = digits[Symbol.iterator]();
@@ -368,4 +369,22 @@
     arrayIterator.next(); // Object { value: 1, done: false }
     arrayIterator.next(); // Object { value: 2, done: false }
     arrayIterator.next(); // Object { value: 3, done: false }
+  ```
+- Weaksets
+  - Can only contain objects
+  - Not iterable 
+  - Does not have a   `.clear()` method
+  - JS's GC deletes the object from the weakset if it is deleted
+- Maps
+  - Iterable
+  - k-v pairs
+  - Sets are to arrays whereas maps are to objects
+  ```js
+    const employees = new Map();
+
+    employees.set('Timmy', { firstName: 'Timmy', lastName: 'Turner' });
+    employees.set('Tommy', { firstName: 'Tommy', lastName: 'Torner' });
+    employees.delete('Tommy');
+    employees.has('Tommy'); // false
+    employees.get('Timmy'); // Object
   ```
