@@ -388,3 +388,27 @@
     employees.has('Tommy'); // false
     employees.get('Timmy'); // Object
   ```
+- WeakMaps
+  - Can only contain objects as keys
+  - Not iterable 
+  - Does not have a `.clear()` method
+- Proxies
+  - Representation of something else
+  ```js
+    var richard = { status: 'looking for work' };
+    var agent = new Proxy(richard, {});
+
+    agent.status; // return 'looking for work'
+
+    const richard = { status: 'looking for work' };
+
+    const handler = {
+      get(target, propName) {
+        console.log(target); // richard object
+        console.log(propName); // name of property the proxy is checking
+      }
+    };
+
+    const agent = new Proxy(richard, handler);
+    agent.status; // Shows the richard object and the name of the property being accessed
+  ```
