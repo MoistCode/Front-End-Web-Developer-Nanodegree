@@ -347,5 +347,10 @@
     const sym1 = Symbol("apple");
     const sym2 = Symbol("apple");
     console.log(sym1 === sym2); // false
-    
-  ```
+
+    const bowl = {
+      [Symbol('apple')]: { color: 'red', weight: '155ox' },
+      [Symbol('apple')]: { color: 'green', weight: '145ox' },
+    }
+  ``` 
+- Iterables
