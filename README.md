@@ -354,3 +354,18 @@
     }
   ``` 
 - Iterables
+  ```js
+    const digits = [1,2,3,4,5,6];
+    for(const digit of digits) {
+      console.log(digit);
+    }
+  ```
+- Iteraor 
+  ```js
+    const digits = [1,2,3,4,5,6];
+    const arrayIterator = digits[Symbol.iterator]();
+
+    arrayIterator.next(); // Object { value: 1, done: false }
+    arrayIterator.next(); // Object { value: 2, done: false }
+    arrayIterator.next(); // Object { value: 3, done: false }
+  ```
